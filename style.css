@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 0 0 0.5px black;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: black;
+}   
+
+.container {
+    display: flex;
+    height: 200vh;
+    flex-direction: column;
+}
+
+.nav {   
+    display: flex;
+    height: 50px;
+    width: 100%;
+    top: 0;
+    background-color: white ;
+    position: sticky;
+    top: 0;
+    justify-content: center;  
+    align-items: center;
+    flex-wrap: wrap;
+}   
+
+a {
+    margin: 0 100px;        
+}
+
+@media (max-width: 768px) {
+
+    .nav a {
+        font-size: 14px;
+        padding: 8px 10px;
+        margin: 20px;
+    }
+}
+
+
+
